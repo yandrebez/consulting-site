@@ -1,3 +1,4 @@
+import AdSense from "../components/AdSense"
 import ContactForm from "../components/ContactForm"
 import ContactWidget from "../components/ContactWidget"
 import Footer from "../components/Footer"
@@ -11,10 +12,14 @@ export default function Home() {
       <Hero />
       <Services />
       <Highlights />
+
+      <div className="max-w-6xl mx-auto my-12 px-6">
+        <AdSense />
+      </div>
+
       <ContactForm />
       <ContactWidget />
       <Footer />
     </main>
   )
 }
-
