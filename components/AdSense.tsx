@@ -16,8 +16,8 @@ export default function AdSense() {
     <ins
       className="adsbygoogle block"
       style={{ display: "block" }}
-      data-ad-client="ca-pub-3600333644849202" // Publisher ID
-      data-ad-slot="9690918371"               // Ad Unit ID
+      data-ad-client="ca-pub-3600333644849202"
+      data-ad-slot="9690918371"
       data-ad-format="auto"
       data-full-width-responsive="true"
     />
